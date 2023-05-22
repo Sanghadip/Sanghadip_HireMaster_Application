@@ -9,7 +9,6 @@ import colors from "colors";
 import cors from "cors";
 import morgan from "morgan";
 //securty packges
-import helmet from "helmet";
 import xss from "xss-clean";
 import mongoSanitize from "express-mongo-sanitize";
 // files imports
