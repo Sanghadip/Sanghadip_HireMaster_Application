@@ -69,7 +69,8 @@ app.use("/api-doc", swaggerUi.serve, swaggerUi.setup(spec));
 app.use(errroMiddelware);
 
 //port
-const PORT = process.env.PORT || 8080;
+//const PORT = process.env.PORT || 8080,
+url: "https://sanghadip-hiremaster-application.onrender.com"
 //listen
 app.listen(PORT, () => {
   console.log(
